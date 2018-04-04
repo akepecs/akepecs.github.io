@@ -214,6 +214,7 @@ body {
 
   [class*="col-"] {
     padding: 0px;
+    padding-bottom: 15px;
     margin: 0px;
     border: 0px;
   }
@@ -223,6 +224,17 @@ body {
    padding-left: 0px !important;
    padding-right: 0px !important;
   }
+
+  .fa {
+    padding: .2em;
+    width:75px; /** fix width ***/
+    text-align: center;
+    display: inline;
+    border-radius: 50%;
+    border:1px solid black; 
+    line-height: 50px;  /** for vertical center - if needed **/
+  }
+
 } 
 
 
