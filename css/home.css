@@ -108,7 +108,7 @@ body {
 
 .section-features {
   margin-top: 150px;
-  height: 100%;
+  margin-bottom: 150px;
   flex-direction: column;
 }
 
