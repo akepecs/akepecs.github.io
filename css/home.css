@@ -118,12 +118,12 @@ body {
   flex-direction: column;
 }
 
-.section-records{
+.section-claimitems{
   padding-top: 50px;
   flex-direction: column;
 }
 
-.section-claimitems{
+.section-pricing{
   padding-top: 50px;
   background-color: #faf9f9 !important;
   flex-direction: column;
