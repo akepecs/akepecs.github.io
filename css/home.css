@@ -10,10 +10,6 @@ body {
   line-height: 24px !important;
 }
 
-#mc_embed_signup{
-  background: #faf9f9 !important;
-}
-
 .container-hero {
   display: flex;
   flex-direction: row;
