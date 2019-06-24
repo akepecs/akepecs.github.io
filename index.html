@@ -2,6 +2,32 @@
 <html lang="en-us">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33425069-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-33425069-4');
+        gtag('config', 'AW-996269793');
+    </script>
+    <!-- Event snippet for App Store conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-996269793/m9sRCKrP-KIBEOG9h9sD',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>IntelAGENT - OHIP Billing</title>
@@ -63,8 +89,8 @@
                 <p>Billing is boring and time consuming so we're inviting you to try something new.  We're going to provide a great user experience that will make billing easier. 
                     We'll bring you innovative new features and welcome your feedback. </p>
                 <div class="hero-actions">
-                    <a href="https://itunes.apple.com/ca/app/intelagent-ohip-billing/id1394360074?mt=8" onClick="leadClick();"><img src="/img/download-ios-app.svg" alt="Download iOS"></a>
-                    <a href="https://play.google.com/store/apps/details?id=com.intelagent" onClick="leadClick();"><img src="/img/download-google-play.svg"  alt="Download Android"></a>
+                    <a href="https://itunes.apple.com/ca/app/intelagent-ohip-billing/id1394360074?mt=8" onClick="gtag_report_conversion();"><img src="/img/download-ios-app.svg" alt="Download iOS"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.intelagent" onClick="gtag_report_conversion();"><img src="/img/download-google-play.svg"  alt="Download Android"></a>
                 </div>
                 <p class="hero-powered"> IntelAGENT is built for innovative health-care practitioners.</p>
             </div>
