@@ -114,12 +114,12 @@ body {
 
 .section-newclaim{
   padding-top: 50px;
-  background-color: #faf9f9 !important;
   flex-direction: column;
 }
 
 .section-claimitems{
   padding-top: 50px;
+  background-color: #faf9f9 !important;
   flex-direction: column;
 }
 
