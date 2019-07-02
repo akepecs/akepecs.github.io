@@ -178,6 +178,11 @@ body {
   border-radius: 50%;
   border:1px solid black; 
   line-height: 50px;  /** for vertical center - if needed **/
+} 
+
+.card-4 {
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
 }
 
 .media-left img {background: #85d1db;
