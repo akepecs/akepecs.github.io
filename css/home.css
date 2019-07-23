@@ -106,24 +106,46 @@ body {
   background-size: 367px 699px;
 }
 
+.section-claimitems{
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.section-revenue{
+  padding-top: 50px;
+  background-color: #faf9f9 !important;
+  flex-direction: column;
+}
+.section-newclaim{
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.section-records{
+  padding-top: 50px;
+  background-color: #faf9f9 !important;
+  flex-direction: column;
+}
+
 .section-features {
   margin-top: 150px;
   margin-bottom: 150px;
   flex-direction: column;
 }
 
-.section-newclaim{
-  padding-top: 50px;
-  flex-direction: column;
-}
-
-.section-claimitems{
+.section-started{
   padding-top: 50px;
   background-color: #faf9f9 !important;
   flex-direction: column;
 }
 
 .section-pricing{
+  padding-top: 50px;
+
+  flex-direction: column;
+}
+
+.section-sixmonth{
   padding-top: 50px;
   background-color: #faf9f9 !important;
   flex-direction: column;
@@ -310,5 +332,4 @@ body {
     margin-top: 1.625em;
   }
 }
-
 
