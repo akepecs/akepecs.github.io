@@ -125,9 +125,10 @@ body {
 }
 
 .section-features {
-  margin-top: 50px;
-  margin-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   flex-direction: column;
+  background-color: #5a5e78 !important;
 }
 
 .section-claimitems{
@@ -178,7 +179,7 @@ body {
 .section-footer{
   padding-top: 50px;
   flex-direction: column;
-  background-color: #faf9f9 !important;
+  background-color: #5a5e78 !important;
 }
 
 .vertical-align {
@@ -215,7 +216,7 @@ body {
 }
 
 .heading-padded {
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
 [class*="col-"] {
@@ -223,14 +224,11 @@ body {
   border: 10px solid transparent;
 }
 
-.fa {background: #8fb8df;
-  padding: .27em;
-  width:75px; /** fix width ***/
-  text-align: center;
+.fa {
+  background-color: #5a5e78;
   display: inline;
-  border-radius: 50%;
-  border:1px solid black; 
-  line-height: 50px;  /** for vertical center - if needed **/
+  color: #428bca;
+  margin-top: -40px;
 } 
 
 .card-4 {
@@ -371,6 +369,7 @@ body {
 
 .line-spacing-one-quarter {
   line-height: 1.25;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -386,6 +385,33 @@ ul {
   border-radius: 4px 4px 0px 0px !important;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #5a5e78 !important;
+/**
+*.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+*  background-color: #5a5e78 !important;
+*}
+*/
+
+.panel-transparent {
+  background: none;
+  border-color: white !important;
+  background-color: transparent !important;
+
+}
+.panel-transparent .panel-heading {
+  background-color: transparent !important;
+  border-bottom: 0px solid transparent !important;
+  justify-content: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+.panel-transparent .panel-body {
+  background transparent !important;
+  color: white !important;
+}
+.text-white { color: #FFF; }
+
+.bottom-line {
+  border-bottom: 2px solid #5a5e78 !important;
+  margin-bottom: 20px;
 }
