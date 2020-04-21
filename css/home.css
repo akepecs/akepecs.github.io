@@ -39,6 +39,10 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-image: url(/img/mobile_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero {
@@ -129,6 +133,10 @@ body {
   padding-bottom: 100px;
   flex-direction: column;
   background-color: #5a5e78 !important;
+  background-image: url(/img/desk_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-claimitems{
@@ -228,8 +236,23 @@ body {
   background-color: #5a5e78;
   display: inline;
   color: #428bca;
-  margin-top: -40px;
+  margin-top: -31px;
+  border-radius: 50%;
+  border: 2px solid #428bca !important;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
 } 
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 24px;
+  width: 12px;
+  border-bottom: 3px solid #428bca;
+  border-right: 3px solid #428bca;
+}
 
 .card-4 {
   -webkit-box-shadow: 0 6px 6px rgba(10,16,20,.15), 0 0 52px rgba(10,16,20,.12) !important;
@@ -412,6 +435,6 @@ ul {
 .text-white { color: #FFF; }
 
 .bottom-line {
-  border-bottom: 2px solid #5a5e78 !important;
+  border-bottom: 2px solid #428bca !important;
   margin-bottom: 20px;
 }
