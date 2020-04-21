@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 
-.right {
+.no-webp .right {
   background-color: #5a5e78;
   flex: 1;
   height: 100%;
@@ -42,6 +42,21 @@ body {
   align-content: center;
   align-items: center;
   background-image: url(/img/mobile_background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.webp .right {
+  background-color: #5a5e78;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-image: url(/img/mobile_background.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -122,7 +137,7 @@ body {
 .hero-screen img {
   position: relative;
   right: 120px;
-  top: 60px;
+  top: 20px;
   width: 600px;
   height: 650px;
   background-size: 367px 699px;
@@ -146,7 +161,7 @@ body {
   flex-direction: column;
 }
 
-.section-features {
+.no-webp .section-features {
   padding-top: 100px;
   padding-bottom: 100px;
   flex-direction: column;
@@ -156,6 +171,17 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+.webp .section-features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  flex-direction: column;
+  background-color: #5a5e78 !important;
+  background-image: url(/img/desk_background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
 
 .section-claimitems{
   padding-top: 50px;
