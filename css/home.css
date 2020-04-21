@@ -94,6 +94,13 @@ body {
   margin: 16px;
 }
 
+.hero-screen {
+  margin: auto;
+  width: 367px;
+  height: 699px;
+  margin: 16px;
+}
+
 .hero-video video {
   position: relative;
   left: 45px;
@@ -107,6 +114,15 @@ body {
   top: 105px;
   width: 277px;
   height: 492px;
+  background-size: 367px 699px;
+}
+
+.hero-screen img {
+  position: relative;
+  left: -90px;
+  top: 65px;
+  width: 600px;
+  height: 650px;
   background-size: 367px 699px;
 }
 
@@ -287,6 +303,10 @@ body {
     margin: 32px auto;
   }
 
+  .hero-screen {
+    margin: 32px auto;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -303,6 +323,12 @@ body {
    padding-left: 0px !important;
    padding-right: 0px !important;
   }
+
+  .hero-screen {
+    margin: 32px auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+   }
 
   .fa {
     padding: .2em;
